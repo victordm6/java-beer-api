@@ -6,12 +6,11 @@ import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
-
 import javax.validation.Valid;
 import java.util.List;
 
 @Api("Manages beer stock")
-public interface BeerControllerDocs {
+interface BeerControllerDocs {
 
     @ApiOperation(value = "Beer creation operation")
     @ApiResponses(value = {

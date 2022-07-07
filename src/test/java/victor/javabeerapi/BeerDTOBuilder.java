@@ -9,7 +9,7 @@ import victor.javabeerapi.BeerType;
 import victor.javabeerapi.BeerDTO;
 
 @Builder
-public class BeerDTOBuilder {
+class BeerDTOBuilder {
 
     @Builder.Default
     private Long id = 1L;
@@ -29,7 +29,7 @@ public class BeerDTOBuilder {
     @Builder.Default
     private BeerType type = BeerType.LAGER;
 
-    public BeerDTO toBeerDTO() {
+    BeerDTO toBeerDTO() {
         return new BeerDTO(id,
                 name,
                 brand,

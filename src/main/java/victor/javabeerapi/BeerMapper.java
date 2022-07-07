@@ -1,11 +1,10 @@
 package victor.javabeerapi;
 
-
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
 @Mapper
-public interface BeerMapper {
+interface BeerMapper {
 
     BeerMapper INSTANCE = Mappers.getMapper(BeerMapper.class);
 

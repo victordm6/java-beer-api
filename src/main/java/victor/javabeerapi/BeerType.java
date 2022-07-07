@@ -1,10 +1,11 @@
 package victor.javabeerapi;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum BeerType {
+enum BeerType {
 
     LAGER("Lager"),
     MALZBIER("Malzbier"),
