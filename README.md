@@ -7,7 +7,6 @@
 * Uma IDE.
 * Controle de versão GIT.
 
-
 Para executar no terminal, digite o seguinte comando:
 
 ```shell script
@@ -25,4 +24,4 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço:
 ```
 http://localhost:8080/api/v1/beers
 ```
-
+Este repositório foi para o Desafio "Desenvolvimento de testes unitários para validar uma API REST de gerenciamento estoques de cerveja" da @digitalinnovationone
