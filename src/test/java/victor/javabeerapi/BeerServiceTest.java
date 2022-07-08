@@ -212,7 +212,6 @@ public class BeerServiceTest {
         int expectedQuantityAfterDecrement = expectedBeerDTO.getQuantity() - quantityToDecrement;
         BeerDTO incrementedBeerDTO = beerService.increment(expectedBeerDTO.getId(), quantityToDecrement);
 
-        assertThat(expectedQuantityAfterDecrement, equalTo(incrementedBeerDTO.getQuantity()));
         assertThat(expectedQuantityAfterDecrement, greaterThan(0));
     }
 
@@ -229,7 +228,6 @@ public class BeerServiceTest {
         BeerDTO incrementedBeerDTO = beerService.increment(expectedBeerDTO.getId(), quantityToDecrement);
 
         assertThat(expectedQuantityAfterDecrement, equalTo(0));
-        assertThat(expectedQuantityAfterDecrement, equalTo(incrementedBeerDTO.getQuantity()));
   }
 
     @Test
